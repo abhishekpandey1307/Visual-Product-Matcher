@@ -2,6 +2,11 @@
 
 > **AI-powered visual product matching system using image recognition**
 
+## 🌐 Live Demo
+
+🔗 **Live Website:** https://drishti-visual-product-matcher.onrender.com
+
+
 ---
 
 ## 📖 Overview
@@ -26,15 +31,15 @@ This project demonstrates the real-world application of **Artificial Intelligenc
 
 ## 🧩 System Architecture
 
-User (Browser)
-↓
-Frontend (HTML / CSS / JavaScript)
-↓
-Node.js + Express (API Proxy Server)
-↓
-Google Cloud Vision API
-↓
-Firebase Firestore (Product Database)
+User (Browser) <br>
+↓<br>
+Frontend (HTML / CSS / JavaScript)<br>
+↓<br>
+Node.js + Express (API Proxy Server)<br>
+↓<br>
+Google Cloud Vision API<br>
+↓<br>
+Firebase Firestore (Product Database)<br>
 
 
 ---
@@ -96,6 +101,8 @@ GOOGLE_VISION_API_KEY=your_google_vision_api_key
 npm start
 5️⃣ Open the Application
 http://localhost:3000
+ ```
+
 🧪 How It Works
 User submits an image URL
 
@@ -134,12 +141,7 @@ Matching is performed in-memory for fast responses
 
 Minimal frontend dependencies for improved performance
 
-⚠️ Known Limitations
-Supports only image URL input (no file upload)
 
-Similarity matching is tag-based, not vector-based
-
-Requires publicly accessible image URLs
 
 🚧 Future Enhancements
 Image file upload support
@@ -150,9 +152,7 @@ Category-based filtering
 
 User authentication
 
-Vector-based image similarity using ML embeddings
 
-CDN-based production deployment
 
 🎓 Academic Context
 This project was developed as part of an academic submission and demonstrates:
@@ -165,11 +165,10 @@ Full-stack web development skills
 
 Secure backend system design
 
+
 👤 Author
 Abhishek Pandey
 Computer Science Student
-
-Drishti — Academic Project
 
 📜 License
 This project is intended for educational purposes only.
@@ -177,5 +176,5 @@ This project is intended for educational purposes only.
 ✅ Project Status
 ✔ Functional
 ✔ Tested
-✔ Ready for Evaluation
+
 
