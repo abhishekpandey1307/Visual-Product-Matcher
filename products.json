@@ -1,0 +1,204 @@
+[
+  { "name": "Classic Wrist Watch", "category": "Accessories", "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400" },
+  { "name": "Luxury Leather Wallet", "category": "Accessories", "imageUrl": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400" },
+  { "name": "Minimal White Sneakers", "category": "Footwear", "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400" },
+  { "name": "Running Sports Shoes", "category": "Footwear", "imageUrl": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=400" },
+  { "name": "Leather Travel Backpack", "category": "Bags", "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400" },
+  { "name": "Canvas Laptop Bag", "category": "Bags", "imageUrl": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400" },
+  { "name": "Denim Jacket", "category": "Clothing", "imageUrl": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=400" },
+  { "name": "Winter Hoodie", "category": "Clothing", "imageUrl": "https://images.unsplash.com/photo-1520975916090-3105956dac38?w=400" },
+  { "name": "Casual T-Shirt", "category": "Clothing", "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400" },
+  { "name": "Formal Office Shirt", "category": "Clothing", "imageUrl": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=400" },
+
+  { "name": "Wooden Coffee Table", "category": "Furniture", "imageUrl": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400" },
+  { "name": "Modern Sofa", "category": "Furniture", "imageUrl": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=400" },
+  { "name": "Office Desk Chair", "category": "Furniture", "imageUrl": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=400" },
+  { "name": "Bookshelf Rack", "category": "Furniture", "imageUrl": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400" },
+  { "name": "Bedside Table Lamp", "category": "Home Decor", "imageUrl": "https://images.unsplash.com/photo-1513506003011-38f45e86c430?w=400" },
+
+  { "name": "Ceramic Flower Vase", "category": "Home Decor", "imageUrl": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=400" },
+  { "name": "Indoor Plant Pot", "category": "Home Decor", "imageUrl": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400" },
+  { "name": "Wall Art Frame", "category": "Home Decor", "imageUrl": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400" },
+  { "name": "Decorative Mirror", "category": "Home Decor", "imageUrl": "https://images.unsplash.com/photo-1616627459919-7c47d26a6a7c?w=400" },
+
+  { "name": "Bluetooth Headphones", "category": "Electronics", "imageUrl": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=400" },
+  { "name": "Wireless Earbuds", "category": "Electronics", "imageUrl": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400" },
+  { "name": "Smartphone", "category": "Electronics", "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400" },
+  { "name": "Laptop Computer", "category": "Electronics", "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400" },
+  { "name": "Tablet Device", "category": "Electronics", "imageUrl": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=400" },
+
+  { "name": "Digital Camera", "category": "Electronics", "imageUrl": "https://images.unsplash.com/photo-1519183071298-a2962eadcdbd?w=400" },
+  { "name": "Gaming Mouse", "category": "Electronics", "imageUrl": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=400" },
+  { "name": "Mechanical Keyboard", "category": "Electronics", "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400" },
+
+  { "name": "Men's Sunglasses", "category": "Accessories", "imageUrl": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400" },
+  { "name": "Women's Handbag", "category": "Accessories", "imageUrl": "https://images.unsplash.com/photo-1593032465171-8c5a2e20a7b2?w=400" },
+  { "name": "Leather Belt", "category": "Accessories", "imageUrl": "https://images.unsplash.com/photo-1618354691373-30b2cfd1b39b?w=400" },
+
+  { "name": "Running Shorts", "category": "Sportswear", "imageUrl": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400" },
+  { "name": "Yoga Mat", "category": "Sportswear", "imageUrl": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=400" },
+  { "name": "Gym Dumbbells", "category": "Sportswear", "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400" },
+
+  { "name": "Kitchen Knife Set", "category": "Kitchen", "imageUrl": "https://images.unsplash.com/photo-1589987607627-616cac89a0d8?w=400" },
+  { "name": "Cooking Pan", "category": "Kitchen", "imageUrl": "https://images.unsplash.com/photo-1588167056547-c183313da47c?w=400" },
+  { "name": "Coffee Mug", "category": "Kitchen", "imageUrl": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=400" },
+  { "name": "Electric Kettle", "category": "Kitchen", "imageUrl": "https://images.unsplash.com/photo-1604917877934-0f3b3b6ed2c7?w=400" },
+
+  { "name": "Office Notebook", "category": "Stationery", "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400" },
+  { "name": "Ballpoint Pen Set", "category": "Stationery", "imageUrl": "https://images.unsplash.com/photo-1588776814546-1b68b8a8c6e4?w=400" },
+
+ {
+    "name": "Leather Travel Backpack",
+    "category": "Bags",
+    "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400"
+  },
+  {
+    "name": "Minimal Desk Lamp",
+    "category": "Lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400"
+  },
+  {
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1518441902117-fc8c7b2a4d7d?w=400"
+  },
+  {
+    "name": "Wooden Coffee Table",
+    "category": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=400"
+  },
+  {
+    "name": "Ceramic Tea Mug",
+    "category": "Kitchen",
+    "imageUrl": "https://images.unsplash.com/photo-1517705008128-361805f42e86?w=400"
+  },
+  {
+    "name": "Analog Wall Clock",
+    "category": "Home Decor",
+    "imageUrl": "https://images.unsplash.com/photo-1507646871303-331b8f659227?w=400"
+  },
+  {
+    "name": "Running Sports Shoes",
+    "category": "Footwear",
+    "imageUrl": "https://images.unsplash.com/photo-1528701800489-20be8c7f89c1?w=400"
+  },
+  {
+    "name": "Stainless Steel Water Bottle",
+    "category": "Accessories",
+    "imageUrl": "https://images.unsplash.com/photo-1523362628745-0c100150b7a1?w=400"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1585386959984-a41552231693?w=400"
+  },
+  {
+    "name": "Indoor Plant Pot",
+    "category": "Home Decor",
+    "imageUrl": "https://images.unsplash.com/photo-1493666438817-866a91353ca9?w=400"
+  },
+  {
+    "name": "Laptop Stand",
+    "category": "Office",
+    "imageUrl": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=400"
+  },
+  {
+    "name": "Canvas Tote Bag",
+    "category": "Bags",
+    "imageUrl": "https://images.unsplash.com/photo-1593032465175-481ac7f4016c?w=400"
+  },
+  {
+    "name": "Wooden Bookshelf",
+    "category": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?w=400"
+  },
+  {
+    "name": "Kitchen Cutting Board",
+    "category": "Kitchen",
+    "imageUrl": "https://images.unsplash.com/photo-1603046891744-1f76eb10aec0?w=400"
+  },
+  {
+    "name": "Digital Alarm Clock",
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=400"
+  },
+  {
+    "name": "Leather Office Chair",
+    "category": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1505798577917-a65157d3320a?w=400"
+  },
+  {
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1616627986921-bc5a44f7b9b3?w=400"
+  },
+  {
+    "name": "Standing Floor Lamp",
+    "category": "Lighting",
+    "imageUrl": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400"
+  },
+  {
+    "name": "Ceramic Vase",
+    "category": "Home Decor",
+    "imageUrl": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?w=400"
+  },
+  {
+    "name": "Casual Denim Jacket",
+    "category": "Clothing",
+    "imageUrl": "https://images.unsplash.com/photo-1520975916090-3105956dac38?w=400"
+  },
+  {
+    "name": "Sunglasses",
+    "category": "Accessories",
+    "imageUrl": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400"
+  },
+  {
+    "name": "Yoga Exercise Mat",
+    "category": "Fitness",
+    "imageUrl": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=400"
+  },
+  {
+    "name": "Kitchen Frying Pan",
+    "category": "Kitchen",
+    "imageUrl": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400"
+  },
+  {
+    "name": "Leather Wallet",
+    "category": "Accessories",
+    "imageUrl": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400"
+  },
+  {
+    "name": "Table Desk Organizer",
+    "category": "Office",
+    "imageUrl": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=400"
+  },
+  {
+    "name": "Electric Kettle",
+    "category": "Appliances",
+    "imageUrl": "https://images.unsplash.com/photo-1591035897819-f4bdf739f446?w=400"
+  },
+  {
+    "name": "Smartphone Tripod",
+    "category": "Electronics",
+    "imageUrl": "https://images.unsplash.com/photo-1593642533144-3d62aa4783ec?w=400"
+  },
+  {
+    "name": "Office Desk",
+    "category": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400"
+  },
+  {
+    "name": "Bedside Table",
+    "category": "Furniture",
+    "imageUrl": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?w=400"
+  },
+  {
+    "name": "Wall Picture Frame",
+    "category": "Home Decor",
+    "imageUrl": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=400"
+  }
+ 
+
+
+
+]
