@@ -1,6 +1,6 @@
 # 👁️ Drishti
-
 > **AI-powered visual product matching system using image recognition**
+
 
 ## 🌐 Live Demo
 
@@ -155,7 +155,7 @@ User authentication
 
 
 🎓 Academic Context
-This project was developed as part of an academic submission and demonstrates:
+This project was developed demonstrates:
 
 AI and cloud API integration
 
