@@ -1,25 +1,26 @@
-# Visual Product Matcher
-> AI-powered visual search system for discovering similar products using image recognition.
+# 👁️ Drishti
+
+> **AI-powered visual product matching system using image recognition**
 
 ---
 
 ## 📖 Overview
 
-**Visual Product Matcher** is a full-stack web application that allows users to find visually similar products by submitting an image URL.  
-The system uses **Google Cloud Vision API** to extract meaningful labels from images and matches them against a curated product catalog stored in **Firebase Firestore**.
+**Drishti** is a full-stack web application that enables users to discover visually similar products by submitting an image URL.  
+The system leverages the **Google Cloud Vision API** to extract meaningful visual labels from images and matches them against a curated product catalog stored in **Firebase Firestore**.
 
-This project demonstrates practical use of **Artificial Intelligence**, **Cloud APIs**, and **modern web development** in a real-world scenario.
+This project demonstrates the real-world application of **Artificial Intelligence**, **Cloud APIs**, and **modern full-stack web development**.
 
 ---
 
 ## 🚀 Features
 
 - 🔗 Image URL–based product search  
-- 🤖 AI-powered image labeling (Google Vision API)  
-- 🧠 Smart product matching using semantic tags  
+- 🤖 AI-powered image labeling using Google Vision API  
+- 🧠 Intelligent product matching using semantic tags  
 - 🗃️ Cloud-hosted product database (Firebase Firestore)  
 - 🔐 Secure backend proxy for API key protection  
-- 🎨 Modern, responsive user interface  
+- 🎨 Clean, modern, and responsive user interface  
 
 ---
 
@@ -53,16 +54,16 @@ Firebase Firestore (Product Database)
 - Google Cloud Vision API  
 - Firebase Firestore  
 
-### Tools
-- Git & GitHub  
+### Tools & Platforms
+- GitHub  
 - Render (Deployment)  
-- dotenv (Environment Management)
+- dotenv (Environment Variable Management)
 
 ---
 
 ## 📁 Project Structure
 
-visual-product-matcher/
+drishti/
 │
 ├── client/
 │ └── public/
@@ -83,8 +84,8 @@ visual-product-matcher/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/visual-product-matcher.git
-cd visual-product-matcher
+git clone https://github.com/your-username/drishti.git
+cd drishti
 2️⃣ Install Dependencies
 npm install
 3️⃣ Configure Environment Variables
@@ -95,50 +96,48 @@ GOOGLE_VISION_API_KEY=your_google_vision_api_key
 npm start
 5️⃣ Open the Application
 http://localhost:3000
-
-
-## 🧪 How It Works
+🧪 How It Works
 User submits an image URL
 
 Backend sends the image to Google Vision API
 
-Vision API returns descriptive labels
+Vision API returns descriptive visual labels
 
-Labels are matched with product tags in Firestore
+Labels are matched with product tags stored in Firestore
 
-Visually similar products are displayed
+Visually similar products are displayed to the user
 
 📊 Product Dataset
 Contains 50+ unique products
 
 Each product includes:
 
-Name
+Product name
 
 Category
 
 Image URL
 
-AI-generated tags
+AI-generated semantic tags
 
 🔐 Security Design
 API keys are never exposed to the frontend
 
-All AI requests are handled by a secure backend proxy
+All AI requests are handled through a secure backend proxy
 
-Environment variables are managed using .env
+Sensitive credentials are managed using environment variables
 
 📈 Performance Considerations
 Product data is loaded once from Firestore
 
-Matching is done in-memory for fast response
+Matching is performed in-memory for fast responses
 
-Minimal frontend dependencies for speed
+Minimal frontend dependencies for improved performance
 
 ⚠️ Known Limitations
-Only image URL input is supported
+Supports only image URL input (no file upload)
 
-Similarity is tag-based (not vector embeddings)
+Similarity matching is tag-based, not vector-based
 
 Requires publicly accessible image URLs
 
@@ -151,25 +150,26 @@ Category-based filtering
 
 User authentication
 
-Vector-based image similarity (ML embeddings)
+Vector-based image similarity using ML embeddings
 
 CDN-based production deployment
 
 🎓 Academic Context
 This project was developed as part of an academic submission and demonstrates:
 
-AI API integration
+AI and cloud API integration
 
 Cloud-based application architecture
 
-Full-stack web development
+Full-stack web development skills
 
-Secure system design practices
+Secure backend system design
 
 👤 Author
-Your Name
+Abhishek Pandey
 Computer Science Student
-Visual Product Matcher — Academic Project
+
+Drishti — Academic Project
 
 📜 License
 This project is intended for educational purposes only.
