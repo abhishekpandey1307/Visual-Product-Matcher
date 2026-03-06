@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Visual Product Matcher</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="container">
+          <h1 class="logo">Visual Product Matcher</h1>
+          <p class="tagline">Find similar products using AI-powered visual search</p>
+        </div>
+      </header>
+
+      <main class="main container">
+        <section class="upload-section">
+          <h2 class="section-title">Enter Image URL</h2>
+
+          <!-- URL INPUT ONLY -->
+          <div class="url-input-group">
+            <input
+              type="url"
+              id="url-input"
+              class="url-input"
+              placeholder="https://example.com/image.jpg"
+            />
+            <button class="search-btn" id="url-search-btn">Search</button>
+          </div>
+
+          <div class="preview-section">
+            <h3>Your Image</h3>
+            <div class="preview-container">
+              <img id="preview-image" />
+            </div>
+          </div>
+        </section>
+
+        <section class="results-section" id="results-section" style="display:none">
+          <h2 class="section-title">Similar Products</h2>
+          <div id="results-grid" class="results-grid"></div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <p>Powered by Google Vision AI</p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
