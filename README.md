@@ -30,6 +30,15 @@ This project demonstrates the real-world application of **Artificial Intelligenc
 ![Results Interface](screenshots/demo-results.png)
 
 
+## 🔍 How It Works
+
+* User submits an **image URL**
+* Backend sends the image to **Google Vision API**
+* Vision API returns descriptive **visual labels**
+* Labels are matched with **product tags stored in Firestore**
+* Visually similar products are displayed to the user
+
+---
 
 ## 🚀 Features
 
@@ -118,16 +127,6 @@ npm start
 5️⃣ Open the Application
 http://localhost:3000
  ```
-
-## 🔍 How It Works
-
-* User submits an **image URL**
-* Backend sends the image to **Google Vision API**
-* Vision API returns descriptive **visual labels**
-* Labels are matched with **product tags stored in Firestore**
-* Visually similar products are displayed to the user
-
----
 
 
 ## 📦 Product Dataset
