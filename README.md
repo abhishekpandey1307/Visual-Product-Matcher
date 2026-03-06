@@ -106,78 +106,79 @@ npm start
 http://localhost:3000
  ```
 
-🧪 How It Works
-User submits an image URL
+## 🔍 How It Works
 
-Backend sends the image to Google Vision API
+* User submits an **image URL**
+* Backend sends the image to **Google Vision API**
+* Vision API returns descriptive **visual labels**
+* Labels are matched with **product tags stored in Firestore**
+* Visually similar products are displayed to the user
 
-Vision API returns descriptive visual labels
+---
 
-Labels are matched with product tags stored in Firestore
+## 📦 Product Dataset
 
-Visually similar products are displayed to the user
-
-📊 Product Dataset
-Contains 50+ unique products
+Contains **50+ unique products**
 
 Each product includes:
 
-Product name
+* Product name
+* Category
+* Image URL
+* AI-generated semantic tags
 
-Category
+---
 
-Image URL
+## 🔐 Security Design
 
-AI-generated semantic tags
+* API keys are **never exposed to the frontend**
+* All API requests are handled through a **secure backend proxy**
+* Sensitive credentials are managed using **environment variables**
 
-🔐 Security Design
-API keys are never exposed to the frontend
+---
 
-All AI requests are handled through a secure backend proxy
+## ⚡ Performance Considerations
 
-Sensitive credentials are managed using environment variables
+* Product data is loaded **once from Firestore**
+* Matching is performed **in-memory for fast responses**
+* Minimal frontend dependencies for improved performance
 
-📈 Performance Considerations
-Product data is loaded once from Firestore
+---
 
-Matching is performed in-memory for fast responses
+## 🚀 Future Enhancements
 
-Minimal frontend dependencies for improved performance
+* Image file upload support
+* Similarity score filtering
+* Category-based filtering
+* User authentication
 
+---
 
+## 🎓 Academic Context
 
-🚧 Future Enhancements
-Image file upload support
+This project demonstrates:
 
-Similarity score filtering
+* AI and cloud API integration
+* Cloud-based application architecture
+* Full-stack web development skills
+* Secure backend system design
 
-Category-based filtering
+---
 
-User authentication
+## 👨‍💻 Author
 
-
-
-🎓 Academic Context
-This project was developed demonstrates:
-
-AI and cloud API integration
-
-Cloud-based application architecture
-
-Full-stack web development skills
-
-Secure backend system design
-
-
-👤 Author
-Abhishek Pandey
+**Abhishek Pandey**
 Computer Science Student
 
-📜 License
-This project is intended for educational purposes only.
+---
 
-✅ Project Status
+## 📜 License
+
+This project is intended for **educational purposes only**.
+
+---
+
+## ✅ Project Status
+
 ✔ Functional
 ✔ Tested
-
-
