@@ -9,6 +9,13 @@
 
 ---
 
+## 📸 Application Demo
+
+| Search Interface                 | Product Results                   |
+| -------------------------------- | --------------------------------- |
+| ![](screenshots/demo-search.png) | ![](screenshots/demo-results.png) |
+
+
 ## 📖 Overview
 
 **Drishti** is a full-stack web application that enables users to discover visually similar products by submitting an image URL.  
@@ -115,13 +122,6 @@ http://localhost:3000
 * Visually similar products are displayed to the user
 
 ---
-
-
-## 📸 Application Demo
-
-| Search Interface                 | Product Results                   |
-| -------------------------------- | --------------------------------- |
-| ![](screenshots/demo-search.png) | ![](screenshots/demo-results.png) |
 
 
 ## 📦 Product Dataset
