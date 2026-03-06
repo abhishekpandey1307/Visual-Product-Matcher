@@ -116,6 +116,14 @@ http://localhost:3000
 
 ---
 
+
+## 📸 Application Demo
+
+| Search Interface                 | Product Results                   |
+| -------------------------------- | --------------------------------- |
+| ![](screenshots/demo-search.png) | ![](screenshots/demo-results.png) |
+
+
 ## 📦 Product Dataset
 
 Contains **50+ unique products**
