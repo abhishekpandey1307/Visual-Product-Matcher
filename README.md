@@ -2,6 +2,16 @@
 > **AI-powered visual product matching system using image recognition**
 
 
+## 📖 Overview
+
+**Drishti** is a full-stack web application that enables users to discover visually similar products by submitting an image URL.  
+The system leverages the **Google Cloud Vision API** to extract meaningful visual labels from images and matches them against a curated product catalog stored in **Firebase Firestore**.
+
+This project demonstrates the real-world application of **Artificial Intelligence**, **Cloud APIs**, and **modern full-stack web development**.
+
+---
+
+
 ## 🌐 Live Demo
 
 🔗 **Live Website:** https://drishti-visual-product-matcher.onrender.com
@@ -20,15 +30,6 @@
 ![Results Interface](screenshots/demo-results.png)
 
 
-
-## 📖 Overview
-
-**Drishti** is a full-stack web application that enables users to discover visually similar products by submitting an image URL.  
-The system leverages the **Google Cloud Vision API** to extract meaningful visual labels from images and matches them against a curated product catalog stored in **Firebase Firestore**.
-
-This project demonstrates the real-world application of **Artificial Intelligence**, **Cloud APIs**, and **modern full-stack web development**.
-
----
 
 ## 🚀 Features
 
