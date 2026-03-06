@@ -11,9 +11,14 @@
 
 ## 📸 Application Demo
 
-| Search Interface                 | Product Results                   |
-| -------------------------------- | --------------------------------- |
-| ![](screenshots/demo-search.png) | ![](screenshots/demo-results.png) |
+### 🔎 Search Interface
+
+![Search Interface](screenshots/demo-search.png)
+
+### 🛍️ Similar Product Results
+
+![Results Interface](screenshots/demo-results.png)
+
 
 
 ## 📖 Overview
