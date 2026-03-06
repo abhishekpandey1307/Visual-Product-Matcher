@@ -68,19 +68,22 @@ Firebase Firestore (Product Database)<br>
 
 ## 📁 Project Structure
 
+```
 drishti/
 │
 ├── client/
-│ └── public/
-│ ├── index.html # Application UI
-│ ├── styles.css # Styling
-│ └── app.js # Frontend logic
+│   └── public/
+│       ├── index.html      # Application UI
+│       ├── styles.css      # Styling
+│       └── app.js          # Frontend logic
 │
-├── server.js # Backend server & API proxy
-├── products.json # Product dataset (50+ items)
-├── package.json # Project dependencies
-├── .env # Environment variables
-└── README.md # Project documentation
+├── server.js               # Backend server & API proxy
+├── products.json           # Product dataset (50+ items)
+├── package.json            # Project dependencies
+├── .env                    # Environment variables (not uploaded to GitHub)
+└── README.md               # Project documentation
+```
+
 
 
 ---
